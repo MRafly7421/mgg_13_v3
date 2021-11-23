@@ -33,7 +33,7 @@
                     $weton = getWeton($day,$month,$year);
                     $hari = getDay($day,$month,$year);
                     echo '<div class="head-print">KAMU LAHIR PADA</div>';
-                    echo '<div class="text-print">'. $hari . " " . $weton['pasaranJawaName'] . ", " . $weton['jDay'] . " " . $weton['jMonthName'] . " " . $weton['jYear'] .'</div>';
+                    echo '<div class="text-print">'. $hari . " " . $weton['pasaranJawaName'] . ", " . $weton['jDay'] . " " . $weton['jMonthName'] . " " . $weton['jYear'] . " Ja" .'</div>';
                 }
             }
         ?>
