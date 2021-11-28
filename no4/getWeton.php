@@ -24,8 +24,8 @@
             
             $hMonth = intPart((24*$l)/709);
             $jMonth = $hMonth;
-            $hDay = ($l-intPart((709*$hMonth)/24))+1;
-            $jDay = $hDay-1;
+            $jDay = $l-intPart((709*$hMonth)/24);
+            $hDay = $jDay+1;
             $hYear = 30*$n+$j-30;
             $jYear = $hYear+512;
             $pasaranJawa = ($julian+3)%5;
